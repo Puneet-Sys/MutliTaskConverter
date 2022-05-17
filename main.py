@@ -21,7 +21,7 @@ def speechToText():
 
 def imageToText():
     f = filedialog.askopenfilename(title='Choose a file', filetypes=[('image files', '.jpg'), ('image files', '.png')])
-    tess.pytesseract.tesseract_cmd = r'C:\Users\Puneet Singh\AppData\Local\Programs\Tesseract-OCR\tesseract'
+    tess.pytesseract.tesseract_cmd = r'C:\Users\Puneet Singh\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
     img = Image.open(f)
     text = tess.image_to_string(img)
