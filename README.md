@@ -38,6 +38,9 @@ A Application to convert :-
 ##### Example : pip3 install requests
 
 ###### Note : To Setup PYtesseract download and install the file <a href="https://digi.bib.uni-mannheim.de/tesseract/" target="_blank" rel="noreferrer"> Tesseract </a>  and give path of the file in the code.
+
+###### Note : To Setup pyaudio for speech recognition download and install the file <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio" target="_blank" rel="noreferrer"> pyaudio </a>  and then do pip install 'path-to-downloaded-whl' .
+
     
 ## IDE USED :
 
